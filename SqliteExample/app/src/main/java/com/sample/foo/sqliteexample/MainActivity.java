@@ -2,8 +2,9 @@ package com.sample.foo.sqliteexample;
 
 import android.content.Intent;
 import android.database.Cursor;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     public final static String KEY_EXTRA_CONTACT_ID = "KEY_EXTRA_CONTACT_ID";
 
     private ListView listView;
